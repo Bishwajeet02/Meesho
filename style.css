@@ -1,0 +1,510 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 72px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.logo{
+    background-image: url(./images/meeshoLogo.jpg.svg);
+    width: 156px;
+    aspect-ratio: auto 156 / 36;
+    height: 36px;
+}
+
+
+ /* Search-Bar */
+
+
+.search-bar{
+width: 400px;
+height: 45px;
+display: flex;
+align-items: center;
+background-color: white;
+padding: 10px;
+gap: 10px;
+border-radius: 4px;
+border: 1px solid rgba(237, 160, 237, 0.797);
+
+}
+.search-input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    text-align: left;
+    font-size: 16px;
+
+}
+.size{
+    font-size: 24px;
+    color: rgba(158, 163, 165, 0.749);
+}
+
+.nav-div{
+    background-color: white;
+    height: 45px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    color: rgb(89, 86, 86);
+}
+.download{
+padding: 10px;
+
+}
+.supplier, .newsroom{
+    
+    padding: 10px;
+   
+
+}
+.profile , .cart{
+    display: flex;
+  
+    flex-direction: column;
+ align-items: center;
+ padding: 20px;
+}
+.border{
+    width: 2px;
+    height: 40px;
+    background-color: rgb(206, 206, 222);
+    border-radius: 2px;
+  
+}
+
+/* Navbar02 */
+
+.navbar-2{
+    width: 100%;
+    border-top: 2px solid   rgba(89, 86, 86, 0.408);
+    border-bottom: 2px solid   rgba(89, 86, 86, 0.408);
+    height: 55px;
+    display: flex;
+    
+
+}
+.nav-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+    font-weight: 500;
+     color: rgb(44, 42, 42);
+}
+.list{
+    
+
+        height: 100%;
+        display: flex;
+        align-items: center;
+       
+        justify-content: center;
+    
+        border-radius:  2px 0px 0px;
+}
+.list:hover{
+
+    border-bottom: 3px solid purple;
+    color: purple;
+}
+
+    /* Content */
+
+    
+    .first-banner{
+        margin: 56px 0px 60px;
+        border-radius: 4px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    
+
+    .first-content{
+        min-height: 336px;
+        width: 611px;
+        border-radius: 0px;
+        background-color: rgb(248, 248, 255);
+        padding: 40px 45px 40px 48px;
+    }
+    .first-content h1{
+        color: rgb(53, 53, 67);
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .discount{
+        background-image: url(./images/1712553990685_512.webp);
+        width: 544px;
+        min-height: 336px;
+        background-repeat: no-repeat;
+    }
+    .delivery{
+        display: flex;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-top: 28px;
+        padding: 9px 16px;
+        justify-content:flex-start;
+    }
+    .free  ,   .cash  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid rgb(97, 97, 115);
+        padding: 0 8px;
+        font-weight: 700;
+        font-size: larger;
+    }
+
+    .easy {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        font-weight: 700; 
+        font-size: larger;
+    }
+    .download-meesho{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: rgb(255, 255, 255);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+       margin-top: 30px;
+    padding: 10px 28px;
+    background: rgb(159, 32, 137);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-align: center;
+    width: 300px;
+    }
+
+
+    /* Content-2nd-part */
+
+    .top-cat{
+
+        width: 100%;
+        color: rgb(53, 53, 67);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+      
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        -webkit-box-align: center;
+        text-align: center;
+        gap: 25px;
+
+    }
+
+
+    .st-line{
+    width: 20%;
+    height: 1px;
+    background: rgb(217, 166, 208);
+    }
+
+    /* top-Banner */
+
+
+
+    .banner-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .top-banner{
+
+     
+        height: 546px;
+        width: 74%;
+        background-image: url(https://images.meesho.com/images/marketing/1704720332049_1200.webp);
+        background-size: 100% 100%;
+     
+     
+ 
+        padding: 0px 24px 0px 28px;
+        border-radius: 4px;
+        display: flex;
+      
+        justify-content: center;
+
+    }
+
+    .women-store{
+        background: url(./images/1701835320853_400.webp);
+        width: 400px;
+        aspect-ratio: auto 400 / 429;
+        height: 429px;
+        margin-top:70px ;
+        
+    }
+    .store{
+        display: flex;
+  
+        gap: 15px;
+        align-items: flex-end;
+        margin-bottom: 50px;
+        margin-left: 20px
+      
+    }
+    .kids-store{
+        background: url(./images/1692191103963_300.webp);
+        width: 312px;
+        aspect-ratio: auto 312 / 291;
+        height: 291px;
+background-size: cover;
+    
+    }
+
+    .men-store{
+        background: url(./images/1692191045019_300.webp);
+        width: 312px;
+        aspect-ratio: auto 312 / 291;
+        height: 291px;
+       
+        background-size: cover;
+    }
+    
+
+    /*---- Essential----- */
+    .container-3rd{
+
+  
+        background-image: url(https://images.meesho.com/images/marketing/1704720392370_1200.webp); 
+        height: 546px;
+        width: 74%;
+        background-size: 100% 100%;
+        padding: 0px 24px 0px 28px;
+        border-radius: 4px;
+        display: flex;
+          margin-top: 50px;
+        
+     
+       
+        
+
+    }
+
+/* Conatiner-4 */
+
+.container-4th{
+    background-image: url(https://images.meesho.com/images/marketing/1704720694167_1200.webp);
+    height: 546px;
+    width: 74%;
+    background-size: 100% 100%;
+    padding: 0px 24px 0px 28px;
+    border-radius: 4px;
+    display: flex;
+      margin-top: 50px;
+    
+ 
+   
+    
+
+}
+
+
+    .view-container{
+        display: flex;
+        align-items:center ;
+        justify-content: flex-start;
+    }
+    .view{
+    margin-left: 70px;
+    
+        cursor: pointer;
+    }
+
+    .products{
+        display: flex;
+        align-items: flex-end;
+        /* justify-content: flex-end; */
+        justify-content: center;
+        margin-left: 70px;
+
+    }
+
+    .home .kitchen .health{
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+    }
+   .im{
+    margin-left: 10px;
+   }
+
+
+
+   /* Container-5th */
+
+
+   .container-5th{
+
+  
+    background-image: url(./images/downloadBannerDesktop_1050.webp); 
+    height: 546px;
+    width: 74%;
+    background-size: 100% 100%;
+    padding: 0px 24px 0px 28px;
+    border-radius: 4px;
+    display: flex;
+      margin-top: 50px;
+      flex-direction: column;
+      align-items: end;
+      
+
+    
+ 
+}
+.text{
+    position: relative;
+    padding: 50px;
+
+}
+.text  h3{
+    color: rgb(85, 133, 248);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: "Mier book";
+    margin: 0px 0px 16px;
+    padding: 0px;
+}
+.text h1{
+    color: rgb(159, 32, 137);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    font-family: "Mier bold";
+    margin: 0px;
+    padding: 0px;
+    text-align: end;
+}
+
+.buttons{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  
+    margin-right:50px ;
+}
+.buttons img{
+    background: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-left: 12px;
+    cursor: pointer;
+    padding: 6px 25px;
+    width: 180px;
+    height: 48px;
+}
+
+
+/* footer */
+
+.footer-container{
+ height: 340px;
+    background-color: rgb(248, 248, 255);
+    margin-top: 70px;
+    padding: 30px;
+    display: flex;
+}
+.foot-shop{
+    text-align: left;
+}
+.foot-shop h3{
+    text-align: left;
+    line-height: 58px;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(53, 53, 67);
+}
+.foot-shop p{
+    color: rgb(97, 97, 115);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 44px;
+
+}
+
+.button{
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    padding: 8px;
+}
+
+.button img{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+}
+.foot-text{
+    line-height: 40px;
+    padding-left: 8px;
+    font-weight: 550;
+    color:  rgb(102, 102, 122);
+    font-size: 18px;
+}
+.foot-legel , .foot-career , .foot-reach, .foot-contact{
+    margin-left: 20px;
+}
+
+.legel-text{
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 20px;
+}
+.icons{
+    font-size: 25px;
+gap: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.contact-text span{
+
+   font-weight: 600;
+    line-height: 25px;
+    font-size: 15px;
+    color: black;
+    
+}
+.contact-text{
+    line-height: 30px;
+    color:  rgb(97, 97, 115);
+}
